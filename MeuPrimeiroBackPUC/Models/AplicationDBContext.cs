@@ -10,7 +10,7 @@ namespace MeuPrimeiroBackPUC.Models
 	{
 		public AplicationDBContext (DbContextOptions<AplicationDBContext> options) : base(options) 
 		{
-
 		}
+		public DbSet<Veiculo> Veiculos { get; set; }
 	}
 }
